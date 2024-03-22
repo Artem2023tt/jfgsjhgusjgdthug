@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(99, 8, 245);
+}
+
+header {
+    padding: 30px ;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.button {
+    background-color: #36bbce;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+     padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+   float:right;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex ;
+    justify-content: space-between
+}
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+   display: flex; 
+}
+
+article {
+    background-color: white;
+    padding: 12px ;
+    width: 400px;
+    margin:6px  ;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(21, 185, 6);
+    color: black;
+    font-size: 24px;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: white;
+    padding: 30px ;
+    background-color: rgb(99, 8, 245)
+}
+
+footer a {
+    margin-right: 15px;
+    float: left;
+}
+
+footer p {
+    font-size: 24px;
+    float:left;
+}
+h2{
+text-align: center;
+}
+article{
+text-align: center;
+}
